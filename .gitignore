@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# Environment files (contain API keys)
+.env
+backend/.env
+
+# Database
+*.db
+
+# ML Models (download separately - too large for git)
+backend/*.pt
+backend/*.task
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+build_log.txt
+
+# Misc
+.bolt/
